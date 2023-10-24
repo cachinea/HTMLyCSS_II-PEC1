@@ -1,5 +1,13 @@
 .home-page {
-    background-color: adjust-color($primary-color, $lightness: 35%);
+
+    background-image: url(../images/bg-running.jpg);
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
