@@ -1,0 +1,26 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 750px;
+    padding: $padding-md;
+    height: auto;
+    background-color: $background-color;
+    border-radius: $radius-md;
+
+    img {
+        width: 240px;
+        height: auto;
+    }
+}
+
+.button-link {
+    background-color: $secondary-color;
+    border: 2px solid #000;
+    border-radius: $radius-xs;
+    padding: $padding-xs;
+    &:hover {
+        opacity: 0.7;
+    }
+}
